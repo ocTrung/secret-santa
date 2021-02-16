@@ -9,7 +9,7 @@
 
     <ul v-if="this.$store.state.showTest">
       <li v-for="person in group" :key="person.name">
-        giftee: {{ group[person.giftee-1].name}}
+        {{ group[person.giftee-1].name}}
       </li>
     </ul>
 
@@ -44,7 +44,9 @@ ul {
   display: inline-block;
   list-style-type: none;
   font-size: 20px;
-  color:white;
+  color:rgb(170, 0, 0);
+  font-weight: bold;
+
 }
 ol {
   display: inline-block;

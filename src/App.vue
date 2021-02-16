@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <h1 class="title">Secret Santafiy 🎅</h1>
+      <p class="title">Secret Santafiy 🎅</p>
     </div>
     <router-view />
   </div>
@@ -30,6 +30,8 @@
 }
 
 .title {
-  color:#42b983
+  color:#42b983;
+  font-size: 40px;
+
 }
 </style>
